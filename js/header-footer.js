@@ -117,7 +117,7 @@ class Header extends HTMLElement {
                     <a href="data-infrastructure-services.html">Data Infrastructure Services </a>
                     </li>
                     <li>
-                    <a href="ai-ml-services.html">AI/ML Services</a>
+                    <a href="ai-ml-services-new.html">AI/ML Services</a>
                     </li>
                     <li>
                     <a href="custom-chatbots.html"> Chatbots</a>
@@ -212,7 +212,7 @@ class Header extends HTMLElement {
                 <a href="data-infrastructure-services.html" class="research-compliance">Data Infrastructure Services </a>
             </li>
             <li>
-                <a href="ai-ml-services.html" class="research-compliance">AI/ML Services</a>
+                <a href="ai-ml-services-new.html" class="research-compliance">AI/ML Services</a>
             </li>
             <li>
                 <a href="custom-chatbots.html" class="research-compliance"> Chatbots</a>
@@ -263,3 +263,11 @@ class Header extends HTMLElement {
   }
   
   customElements.define('footer-component', Footer);
+
+  window._mfq = window._mfq || [];
+  (function() {
+    var mf = document.createElement("script");
+    mf.type = "text/javascript"; mf.defer = true;
+    mf.src = "//cdn.mouseflow.com/projects/699319fe-001b-4be6-a545-7b9a88036b91.js";
+    document.getElementsByTagName("head")[0].appendChild(mf);
+  })();
