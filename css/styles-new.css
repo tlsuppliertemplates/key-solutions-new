@@ -149,4 +149,6 @@
     .heading-label-text{
         font-size: 30px !important;
     }
-    
+    .services-card h3{
+        align-items: center;
+    }
