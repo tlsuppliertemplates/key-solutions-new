@@ -167,17 +167,17 @@ body{
         align-items: center;
     }
     .inner_banner_text.aiml-banner-text {
-        top: 33% !important;
+        top: 29% !important;
     }
-    .inner_banner_text  h1 span{
+    /* .inner_banner_text  h1 span{
         
         font-weight: 600 !important;
         font-family: 'poppins', sans-serif !important;
     }
     .inner_banner_text p{
-        /* color: #000 !important; */
+        color: #000 !important; 
         font-family: 'poppins', sans-serif !important;
-    }
+    }*/
     .aiml-banner-text-black h1 span{
         color: #000 !important;
         font-family: 'poppins', sans-serif !important;
