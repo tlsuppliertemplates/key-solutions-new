@@ -118,6 +118,12 @@ body{
     background: linear-gradient(to left ,rgba(32, 36, 60, 0.9), rgba(32, 36, 60, 0.9)), url('https://i.postimg.cc/j23f77q2/Fru-K9u-Zi-N4dx-Cf-Wk-C3d-T6-transformed.png');
     background-position: center;
 }
+.overview-section-1 {
+    background: linear-gradient(to left, rgb(0, 5, 82, 0.5), rgb(0, 3, 83, 0.8)), url(https://i.postimg.cc/j23f77q2/Fru-K9u-Zi-N4dx-Cf-Wk-C3d-T6-transformed.png);
+}
+.overview-section-2 {
+    background: linear-gradient(to left ,rgba(32, 36, 60, 0.9), rgba(32, 36, 60, 0.9)), url('https://i.postimg.cc/j23f77q2/Fru-K9u-Zi-N4dx-Cf-Wk-C3d-T6-transformed.png');
+}
 .overview-section p{
     color: white;
 }
@@ -161,18 +167,17 @@ body{
         align-items: center;
     }
     .inner_banner_text.aiml-banner-text {
-        top: 30% !important;
+        top: 33% !important;
     }
-    /* .inner_banner_text  h1 span{
+    .inner_banner_text  h1 span{
         
         font-weight: 600 !important;
         font-family: 'poppins', sans-serif !important;
     }
     .inner_banner_text p{
-        color: #000 !important; 
+        /* color: #000 !important; */
         font-family: 'poppins', sans-serif !important;
     }
-*/
     .aiml-banner-text-black h1 span{
         color: #000 !important;
         font-family: 'poppins', sans-serif !important;
@@ -182,4 +187,53 @@ body{
     }
     .inner_banner_text.aiml-banner-text-new-1{
         top: 30% !important;
+    }
+    @media (min-width:1224px){
+
+        .grid-view-cards{
+            display: flex;
+            clear: both;
+        }
+    }
+    .professional-services-list .product_title{
+        color: #303030;
+        font-family: Roboto-Regular;
+        font-size: 18px;
+        display: inline;
+        margin-left: 8px;
+        float: none !important; 
+    }
+    .professional-services-list .product_img1{
+        display: inline;
+    }
+    .professional-services-list .service-one {
+        border-style: solid;
+        --border-style: solid;
+        border-width: 0px 1px 1px 0px;
+        border-color: #ddd;
+    }
+
+    .professional-services-list  .service-two {
+        border-style: solid;
+        --border-style: solid;
+        border-width: 0px 0px 1px 0px;
+        border-color: #ddd;
+    }
+    .professional-services-list .service-three{
+        border-style: solid;
+        --border-style: solid;
+        border-width: 0px 1px 0px 0px;
+        border-color: #ddd;
+    }
+    .professional-services-list  .inner_products{
+        text-align: left;
+    }
+    .ps-page-card-grid .card{
+        height: 100%;
+    }
+    .ps-page-card-grid .card p{
+        text-align: left;
+    }
+    .ps-page-card-grid .contact1 h2{
+        color: #000;
     }
